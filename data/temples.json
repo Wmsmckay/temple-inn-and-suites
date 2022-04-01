@@ -1,0 +1,136 @@
+{
+    "temples": [
+        {
+            "name": "Boston Massachusetts Temple",
+            "address": "100 Hinckley Wy, Belmont MA, 02478-2135 United States",
+            "telephone": "(1) 617-993-9993",
+            "email": "",
+            "services": [
+                "Clothing rental available", 
+                "No cafeteria available", 
+                "No patron housing available", 
+                "Distribution center nearby"
+            ],
+            "ordinance schedule": "By appointment",
+            "session schedule": "By appointment",
+            "closure schedule": ["Monday, 7 March 2022 - Monday, 16 May 2022"],
+            "history": {
+                "announced": "30 September 1995",
+                "groundbreaking": "13 June 1997",
+                "dedicated": "1 October 2000"
+            },
+            "photo": "./images/",
+            "url": "https://www.churchofjesuschrist.org/temples/details/boston-massachusetts-temple?lang=eng",
+            "location": {
+                "latitude": "42.41207161659535",
+                "longitude": "-71.18759046102487"
+            }
+        },
+        {
+            "name": "Rexburg Idaho Temple",
+            "address": "750 S 2nd E, Rexburg ID 83440-5404, United States",
+            "telephone": "(1) 208-656-0880",
+            "email": "",
+            "services": [
+                "Clothing rental available",
+                "No cafeteria available", 
+                "No patron housing available", 
+                "Distribution center nearby"
+            ],
+            "ordinance schedule": "By appointment",
+            "session schedule": "By appointment",
+            "closure schedule": [
+                "Saturday, 2 April 2022",
+                "Monday, 11 April 2022 - Monday, 4 July 2022",
+                "Saturday, 23 July 2022",
+                "Saturday, 1 October 2022",
+                "Wednesday, 23 November 2022 - Thursday, 24 November 2022",
+                "Saturday, 24 December 2022",
+                "Saturday, 31 December 2022"
+            ],
+            "history": {
+                "announced": "12 December 2003",
+                "groundbreaking": "30 July 2005",
+                "dedicated": "10 February 2008"
+            },
+            "photo": "./images/",
+            "url": "https://www.churchofjesuschrist.org/temples/details/rexburg-idaho-temple?lang=eng",
+            "location": {
+                "latitude": "43.81107609937018",
+                "longitude": "-111.77856663215069"
+            }
+        },
+        {
+            "name": "Phoenix Arizona Temple",
+            "address": "5220 W Pinnacle Peak Rd, Phoenix AZ 85310, United States",
+            "telephone": "(1) 623-474-9500",
+            "email": "",
+            "services": [
+                "No clothing rental available",
+                "No cafeteria available",
+                "No patron housing available",
+                "No distribution center nearby"
+            ],
+            "ordinance schedule": "By appointment",
+            "session schedule": "By appointment",
+            "closure schedule": [
+                "Saturday, 2 April 2022",
+                "Monday, 16 May 2022 - Monday, 30 May 2022",
+                "Saturday, 1 October 2022",
+                "Monday, 31 October 2022 - Monday, 14 November 2022",
+                "Wednesday, 23 November 2022 (Limited Operations)",
+                "Thursday, 24 November 2022",
+                "Saturday, 24 December 2022",
+                "Saturday, 31 December 2022 (Limited Operations)"
+            ],
+            "history": {
+                "announced": "9 May 2008",
+                "groundbreaking": "4 June 2011",
+                "dedicated": "16 November 2014"
+            },
+            "photo": "",
+            "url": "https://www.churchofjesuschrist.org/temples/details/phoenix-arizona-temple?lang=eng",
+            "location": {
+                "latitude": "33.698800077856916",
+                "longitude": "-112.17199755997946"
+            }
+        },
+        {
+            "name": "Pocatello Idaho Temple",
+            "address": "3100 Butte St, Pocatello ID 83201, United States",
+            "telephone": "(1) 208-646-7730",
+            "email": "",
+            "services": [
+                "Clothing rental available",
+                "No cafeteria available",
+                "No patron housing available",
+                "No distribution center nearby"
+            ],
+            "ordinance schedule": "By appointment",
+            "session schedule": "By appointment",
+            "closure schedule": [
+                "Saturday, 2 April 2022",
+                "Monday, 2 May 2022 - Monday, 16 May 2022",
+                "Saturday, 1 October 2022",
+                "Monday, 31 October 2022 - Monday, 14 November 2022",
+                "Wednesday, 23 November 2022 (Limited Operations)",
+                "Wednesday, 23 November 2022",
+                "Thursday, 24 November 2022",
+                "Saturday, 24 December 2022",
+                "Saturday, 31 December 2022 (Limited Operations)",
+                "Saturday, 31 December 2022"
+            ],
+            "history": {
+                "announced": "2 April 2017",
+                "groundbreaking": "16 March 2019",
+                "dedicated": "7 November 2021"
+            },
+            "photo": "",
+            "url": "https://www.churchofjesuschrist.org/temples/details/pocatello-idaho-temple?lang=eng",
+            "location": {
+                "latitude": "42.91536095054424",
+                "longitude": "-112.40604797604551"
+            }
+        }
+    ]
+}
