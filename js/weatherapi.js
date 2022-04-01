@@ -1,20 +1,15 @@
-// const apiURL = 'https://api.openweathermap.org/data/2.5/weather?lat=32.9211&lon=10.4509&units=imperial&appid=6f1295d458b9a2c5209776b7aa937528'
-
-// const requestURL = 'https://wmsmckay.github.io/wdd230/temple-inn-and-suites/data/data.json';
-// let templeName = document.querySelector('#temple-name').innerHTML;
-// function weatherAPI() {
 let lat = document.querySelector('#latitude').innerHTML;
 let lon = document.querySelector('#longitude').innerHTML;
 
 const apiURL = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=imperial&appid=6f1295d458b9a2c5209776b7aa937528`
 
-console.log(apiURL)
+// console.log(apiURL)
 
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
 
-    console.log(jsObject);
+    // console.log(jsObject);
     const temp = jsObject.main.temp.toFixed(0);
     const speed = jsObject.wind.speed;
     const description = jsObject.weather[0].description;

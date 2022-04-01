@@ -13,7 +13,7 @@ fetch(requestURL)
     const temples = jsonObject['temples'];
 
     i_random = Math.floor(Math.random() * temples.length);
-    console.log(temples[i_random])
+    // console.log(temples[i_random])
     displayTempleHighligh(temples[i_random]);
 });
 
@@ -22,7 +22,7 @@ function displayTempleHighligh(temple) {
     let name = document.createElement('h2');
     let photo = document.createElement('img');
     let website = document.createElement('a');
-    let templehistory = document.createElement('ul');
+    let templehistory = document.createElement('section');
     let lat = document.querySelector('#latitude');
     let lon = document.querySelector('#longitude');
 
@@ -36,19 +36,26 @@ function displayTempleHighligh(temple) {
     lat.innerHTML = temple.location['latitude'];
     lon.innerHTML = temple.location['longitude'];
     
+    
+    let list = document.createElement('ul');
+
     for (item in temple.history) {
-        let li = document.createAttribute('li');
-        li.textContent = item;
-        // li.textContent = `${item['']}: ${item[1]}`
-        // li.textContent = item;
-        console.log(item)
-        // temphistory.appendChild(li);
+        let li = document.createElement('li');
+        li.textContent = temple.history[item];
+        // console.log(item);
+        list.appendChild(li);
     };
+
+    let milestones = document.createElement('h3');
+    milestones.textContent = "Milestones";
+    templehistory.appendChild(milestones);
+    templehistory.appendChild(list)
 
     highlight.appendChild(lat);
     highlight.appendChild(lon);
     highlight.appendChild(photo);
     highlight.appendChild(name);
+    
     highlight.appendChild(templehistory);
     highlight.appendChild(website);
     
