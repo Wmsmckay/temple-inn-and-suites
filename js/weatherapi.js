@@ -1,26 +1,29 @@
-
 // const apiURL = 'https://api.openweathermap.org/data/2.5/weather?lat=32.9211&lon=10.4509&units=imperial&appid=6f1295d458b9a2c5209776b7aa937528'
 
-const requestURL = 'https://wmsmckay.github.io/wdd230/temple-inn-and-suites/data/data.json';
-var templeName = document.querySelector('#temple-name').innerHTML
+// const requestURL = 'https://wmsmckay.github.io/wdd230/temple-inn-and-suites/data/data.json';
+// let templeName = document.querySelector('#temple-name').innerHTML;
 
-var lat = 0;
-var lon = 0;
+let lat = document.querySelector('#latitude').innerHTML;
+let lon = document.querySelector('#longitude').innerHTML;
 
-fetch(requestURL)
-  .then(function (response) {
-    return response.json();
-  })
-  .then(function (jsonObject) {
-    console.table(jsonObject);
-  const temples = jsonObject['temples'];
-  // businesses.forEach(displayBusinessesCard);
-  lat = temples[templeName]["location"]["latitude"];
-  lon = temples[templeName]["location"]["longitude"];
-  });
+// fetch(requestURL)
+//   .then(function (response) {
+//     return response.json();
+//   })
+//   .then(function (jsonObject) {
+//     console.table(jsonObject);
+//   const temples = jsonObject['temples'];
+//   // businesses.forEach(displayBusinessesCard);
+//   lat = temples[templeName]["location"]["latitude"];
+//   lon = temples[templeName]["location"]["longitude"];
+//   });
 
 
-const apiURL = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&${long}&units=imperial&appid=6f1295d458b9a2c5209776b7aa937528`
+
+
+const apiURL = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&${lon}&units=imperial&appid=6f1295d458b9a2c5209776b7aa937528`
+
+console.log(apiURL)
 
 fetch(apiURL)
   .then((response) => response.json())
