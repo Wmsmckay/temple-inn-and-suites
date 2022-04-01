@@ -1,7 +1,7 @@
 
 // const apiURL = 'https://api.openweathermap.org/data/2.5/weather?lat=32.9211&lon=10.4509&units=imperial&appid=6f1295d458b9a2c5209776b7aa937528'
 
-const requestURL = 'https://wmsmckay.github.io/wdd230/chamber/data/data.json';
+const requestURL = 'https://wmsmckay.github.io/wdd230/temple-inn-and-suites/data/data.json';
 var templeName = document.querySelector('#temple-name').innerHTML
 
 var lat = 0;
