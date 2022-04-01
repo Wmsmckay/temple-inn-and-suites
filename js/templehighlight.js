@@ -22,7 +22,7 @@ function displayTempleHighligh(temple) {
     let name = document.createElement('h2');
     let photo = document.createElement('img');
     let website = document.createElement('a');
-    let temphistory = document.createElement('ul');
+    let templehistory = document.createElement('ul');
     let lat = document.querySelector('#latitude');
     let lon = document.querySelector('#longitude');
 
@@ -36,19 +36,20 @@ function displayTempleHighligh(temple) {
     lat.innerHTML = temple.location['latitude'];
     lon.innerHTML = temple.location['longitude'];
     
-    // for (item in temple.history) {
-    //     let li = document.createAttribute('li');
-    //     // li.textContent = `${item['']}: ${item[1]}`
-    //     li.textContent = item;
-    //     console.log(item,)
-    //     // temphistory.appendChild(li)
-    // };
+    for (item in temple.history) {
+        let li = document.createAttribute('li');
+        li.textContent = item;
+        // li.textContent = `${item['']}: ${item[1]}`
+        // li.textContent = item;
+        console.log(item)
+        // temphistory.appendChild(li);
+    };
 
     highlight.appendChild(lat);
     highlight.appendChild(lon);
     highlight.appendChild(photo);
     highlight.appendChild(name);
-    highlight.appendChild(temphistory);
+    highlight.appendChild(templehistory);
     highlight.appendChild(website);
     
 }

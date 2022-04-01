@@ -14,11 +14,11 @@
             "ordinance schedule": "By appointment",
             "session schedule": "By appointment",
             "closure schedule": ["Monday, 7 March 2022 - Monday, 16 May 2022"],
-            "history": {
-                "announced": "30 September 1995",
-                "groundbreaking": "13 June 1997",
-                "dedicated": "1 October 2000"
-            },
+            "history": [
+                "Announced: 30 September 1995",
+                "Ground breaking: 13 June 1997",
+                "Dedicated: 1 October 2000"
+            ],
             "photo": "./images/boston_temple_lds.jpeg",
             "url": "https://www.churchofjesuschrist.org/temples/details/boston-massachusetts-temple?lang=eng",
             "location": {
@@ -48,11 +48,11 @@
                 "Saturday, 24 December 2022",
                 "Saturday, 31 December 2022"
             ],
-            "history": {
-                "announced": "12 December 2003",
-                "groundbreaking": "30 July 2005",
-                "dedicated": "10 February 2008"
-            },
+            "history": [
+                "Announced: 12 December 2003",
+                "Groundbreaking: 30 July 2005",
+                "Dedicated: 10 February 2008"
+            ],
             "photo": "./images/rexburg_idaho_temple.jpeg",
             "url": "https://www.churchofjesuschrist.org/temples/details/rexburg-idaho-temple?lang=eng",
             "location": {
@@ -83,11 +83,11 @@
                 "Saturday, 24 December 2022",
                 "Saturday, 31 December 2022 (Limited Operations)"
             ],
-            "history": {
-                "announced": "9 May 2008",
-                "groundbreaking": "4 June 2011",
-                "dedicated": "16 November 2014"
-            },
+            "history": [
+                "Announced: 9 May 2008",
+                "Groundbreaking: 4 June 2011",
+                "Dedicated: 16 November 2014"
+            ],
             "photo": "./images/phoenix_arizona_temple_exterior.jpeg",
             "url": "https://www.churchofjesuschrist.org/temples/details/phoenix-arizona-temple?lang=eng",
             "location": {
@@ -120,11 +120,11 @@
                 "Saturday, 31 December 2022 (Limited Operations)",
                 "Saturday, 31 December 2022"
             ],
-            "history": {
-                "announced": "2 April 2017",
-                "groundbreaking": "16 March 2019",
-                "dedicated": "7 November 2021"
-            },
+            "history": [
+                "Announced: 2 April 2017",
+                "Groundbreaking: 16 March 2019",
+                "Dedicated: 7 November 2021"
+            ],
             "photo": "./images/pocatello_idaho_temple.jpeg",
             "url": "https://www.churchofjesuschrist.org/temples/details/pocatello-idaho-temple?lang=eng",
             "location": {
