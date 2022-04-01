@@ -22,7 +22,7 @@ function displayTempleHighligh(temple) {
     let name = document.createElement('h2');
     let photo = document.createElement('img');
     let website = document.createElement('a');
-    let history = document.createElement('ul');
+    let temphistory = document.createElement('ul');
     let lat = document.querySelector('#latitude');
     let lon = document.querySelector('#longitude');
 
@@ -32,18 +32,27 @@ function displayTempleHighligh(temple) {
     photo.setAttribute('loading', 'lazy');
     website.setAttribute('href', temple.url);
     website.setAttribute('target', '_blank');
+
+    lat.innerHTML = temple.location['latitude'];
+    lon.innerHTML = temple.location['longitude'];
     
     // for (item in temple.history) {
     //     let li = document.createAttribute('li');
-    //     li.textContent = `${item[0]}: ${item[1]}`
-    //     history.appendChild(li)
+    //     // li.textContent = `${item['']}: ${item[1]}`
+    //     li.textContent = item;
+    //     console.log(item,)
+    //     // temphistory.appendChild(li)
     // };
 
     highlight.appendChild(lat);
     highlight.appendChild(lon);
     highlight.appendChild(photo);
     highlight.appendChild(name);
-    // highlight.appendChild(history);
+    highlight.appendChild(temphistory);
     highlight.appendChild(website);
     
 }
+
+let script = document.createElement('script');
+script.src = './js/weatherapi.js';
+document.body.appendChild(script);

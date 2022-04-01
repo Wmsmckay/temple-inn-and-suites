@@ -22,8 +22,8 @@
             "photo": "./images/boston_temple_lds.jpeg",
             "url": "https://www.churchofjesuschrist.org/temples/details/boston-massachusetts-temple?lang=eng",
             "location": {
-                "latitude": "42.41207161659535",
-                "longitude": "-71.18759046102487"
+                "latitude": "42.4120",
+                "longitude": "-71.1875"
             }
         },
         {
@@ -56,8 +56,8 @@
             "photo": "./images/rexburg_idaho_temple.jpeg",
             "url": "https://www.churchofjesuschrist.org/temples/details/rexburg-idaho-temple?lang=eng",
             "location": {
-                "latitude": "43.81107609937018",
-                "longitude": "-111.77856663215069"
+                "latitude": "43.8110",
+                "longitude": "-111.7785"
             }
         },
         {
@@ -91,8 +91,8 @@
             "photo": "./images/phoenix_arizona_temple_exterior.jpeg",
             "url": "https://www.churchofjesuschrist.org/temples/details/phoenix-arizona-temple?lang=eng",
             "location": {
-                "latitude": "33.698800077856916",
-                "longitude": "-112.17199755997946"
+                "latitude": "33.6988",
+                "longitude": "-112.1719"
             }
         },
         {
@@ -128,8 +128,8 @@
             "photo": "./images/pocatello_idaho_temple.jpeg",
             "url": "https://www.churchofjesuschrist.org/temples/details/pocatello-idaho-temple?lang=eng",
             "location": {
-                "latitude": "42.91536095054424",
-                "longitude": "-112.40604797604551"
+                "latitude": "42.9153",
+                "longitude": "-112.4060"
             }
         }
     ]
