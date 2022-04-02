@@ -9,11 +9,9 @@ fetch(requestURL)
       return response.json();
     })
     .then(function (jsonObject) {
-    //   console.table(jsonObject);
     const temples = jsonObject['temples'];
 
     i_random = Math.floor(Math.random() * temples.length);
-    // console.log(temples[i_random])
     displayTempleHighligh(temples[i_random]);
 });
 

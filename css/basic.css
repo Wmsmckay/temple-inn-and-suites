@@ -1,7 +1,67 @@
 /* || Global CSS */
+:root {
+    --site-grey: #53575B;
+    --site-blue: #157493;
+    --site-dark-blue:#006184;
+    --site-black: #212225;
+    --site-light-blue: #63B1D7;
+    --site-white: #fff;
+}
+
+body {
+    max-width: 1100px;
+    /* align-items: center; */
+    text-align: center;
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+
+
 /* || Header */
+header{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr;
+    color: var(--site-white);
+    background-color: var(--site-blue);
+    /* gap: 0.8rem; */
+}
+
+
+/* #social-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    max-width: 20px;
+}
+.fa {
+    padding: .7em;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: auto;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+.fa-instagram {
+    background: #007bb5;
+    color: white;
+  } */
+
+
+
 
 /* || Nav */
+
+
 
 /* .navbar {
     overflow: hidden;
@@ -62,3 +122,7 @@
 
 /* || Index Main */
 /* || Footer */
+footer{
+    color: var(--site-white);
+    background-color: var(--site-blue);
+}
