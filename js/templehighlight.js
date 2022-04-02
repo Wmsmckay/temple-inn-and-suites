@@ -36,6 +36,7 @@ function displayTempleHighligh(temple) {
     
     
     let list = document.createElement('ul');
+    list.setAttribute('class', 'temple-highlight-text')
 
     for (item in temple.history) {
         let li = document.createElement('li');
