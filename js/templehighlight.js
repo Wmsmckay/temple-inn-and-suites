@@ -10,7 +10,6 @@ fetch(requestURL)
     })
     .then(function (jsonObject) {
     const temples = jsonObject['temples'];
-
     i_random = Math.floor(Math.random() * temples.length);
     displayTempleHighligh(temples[i_random]);
 });
@@ -36,7 +35,7 @@ function displayTempleHighligh(temple) {
     
     
     let list = document.createElement('ul');
-    list.setAttribute('class', 'temple-highlight-text')
+    list.setAttribute('class', 'temple-highlight-text');
 
     for (item in temple.history) {
         let li = document.createElement('li');
