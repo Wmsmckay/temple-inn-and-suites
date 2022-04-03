@@ -17,7 +17,7 @@ function currentWeather(weatherData) {
   const temp = weatherData.current.temp.toFixed(0);
   const speed = weatherData.current.wind_speed;
   const description = weatherData.current.weather[0].description;
-  const imgURL = `http://openweathermap.org/img/wn/${weatherData.current.weather[0].icon}.png`;
+  const imgURL = `https://openweathermap.org/img/wn/${weatherData.current.weather[0].icon}.png`;
   const humidity = weatherData.current.humidity;
 
   document.querySelector('#temp').textContent = temp;
