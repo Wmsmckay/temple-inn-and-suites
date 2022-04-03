@@ -20,10 +20,12 @@ function currentWeather(weatherData) {
   const imgURL = `https://openweathermap.org/img/wn/${weatherData.current.weather[0].icon}.png`;
   const humidity = weatherData.current.humidity;
   
-  
-  const weather_alert = weatherData.alerts[0].description;
-  // console.log(weather_alert);
-  alert(weather_alert);
+  try {
+    const weather_alert = weatherData.alerts[0].description;
+    alert(weather_alert);
+  } catch (error) {
+    console.error(error);
+  }
   
   
   document.querySelector('#temp').textContent = temp;
