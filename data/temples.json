@@ -11,9 +11,9 @@
                 "No patron housing available", 
                 "Distribution center nearby"
             ],
-            "ordinance schedule": "By appointment",
-            "session schedule": "By appointment",
-            "closure schedule": ["Monday, 7 March 2022 - Monday, 16 May 2022"],
+            "ordinance_schedule": "By appointment",
+            "session_schedule": "By appointment",
+            "closure_schedule": ["Monday, 7 March 2022 - Monday, 16 May 2022"],
             "history": [
                 "Announced: 30 September 1995",
                 "Ground breaking: 13 June 1997",
@@ -37,9 +37,9 @@
                 "No patron housing available", 
                 "Distribution center nearby"
             ],
-            "ordinance schedule": "By appointment",
-            "session schedule": "By appointment",
-            "closure schedule": [
+            "ordinance_schedule": "By appointment",
+            "session_schedule": "By appointment",
+            "closure_schedule": [
                 "Saturday, 2 April 2022",
                 "Monday, 11 April 2022 - Monday, 4 July 2022",
                 "Saturday, 23 July 2022",
@@ -71,9 +71,9 @@
                 "No patron housing available",
                 "No distribution center nearby"
             ],
-            "ordinance schedule": "By appointment",
-            "session schedule": "By appointment",
-            "closure schedule": [
+            "ordinance_schedule": "By appointment",
+            "session_schedule": "By appointment",
+            "closure_schedule": [
                 "Saturday, 2 April 2022",
                 "Monday, 16 May 2022 - Monday, 30 May 2022",
                 "Saturday, 1 October 2022",
@@ -106,9 +106,9 @@
                 "No patron housing available",
                 "No distribution center nearby"
             ],
-            "ordinance schedule": "By appointment",
-            "session schedule": "By appointment",
-            "closure schedule": [
+            "ordinance_schedule": "By appointment",
+            "session_schedule": "By appointment",
+            "closure_schedule": [
                 "Saturday, 2 April 2022",
                 "Monday, 2 May 2022 - Monday, 16 May 2022",
                 "Saturday, 1 October 2022",
