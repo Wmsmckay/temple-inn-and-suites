@@ -19,7 +19,13 @@ function currentWeather(weatherData) {
   const description = weatherData.current.weather[0].description;
   const imgURL = `https://openweathermap.org/img/wn/${weatherData.current.weather[0].icon}.png`;
   const humidity = weatherData.current.humidity;
-
+  
+  
+  const weather_alert = weatherData.alerts[0].description;
+  // console.log(weather_alert);
+  alert(weather_alert);
+  
+  
   document.querySelector('#temp').textContent = temp;
   document.querySelector('#speed').textContent = speed;
   document.querySelector('#weatherIcon').setAttribute('src', imgURL);
@@ -27,8 +33,6 @@ function currentWeather(weatherData) {
   document.querySelector('#weather-description').textContent = description;
   document.querySelector('#humidity').textContent = humidity;
   
-  // alert(weatherData.alert[0].description);
-  alert("API not showing alerts in data.")
 
   if (temp <= 50 && speed > 3) {
     const windchill = 35.74 + 0.6215 * temp - 35.75 * Math.pow(speed, 0.16) + 0.4275 * temp * Math.pow(speed, 0.16)
