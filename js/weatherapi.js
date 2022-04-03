@@ -2,38 +2,33 @@
 let lat = document.querySelector('#latitude').innerHTML;
 let lon = document.querySelector('#longitude').innerHTML;
 
-const apiURL = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=imperial&appid=6f1295d458b9a2c5209776b7aa937528`;
-const endpoint = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&units=imperial&exclude=current,hourly,minutely,alerts&units=metric&appid=6f1295d458b9a2c5209776b7aa937528`;
-
+const apiURL = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&units=imperial&appid=6f1295d458b9a2c5209776b7aa937528`;
+// const endpoint = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&units=imperial&exclude=current,hourly,minutely&units=metric&appid=6f1295d458b9a2c5209776b7aa937528`;
 
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
     currentWeather(jsObject);
-    // forecast(jsObject);
-    // console.log(jsObject);
-    
-  });
-
-  fetch(endpoint)
-  .then((response) => response.json())
-  .then((jsObject) => {
     fetchForecast(jsObject);
+    console.log(jsObject);
   });
-
-// console.log(endpoint);
 
 function currentWeather(weatherData) {
-  const temp = weatherData.main.temp.toFixed(0);
-  const speed = weatherData.wind.speed;
-  const description = weatherData.weather[0].description;
-  const imgURL = `http://openweathermap.org/img/wn/${weatherData.weather[0].icon}.png`;
+  const temp = weatherData.current.temp.toFixed(0);
+  const speed = weatherData.current.wind_speed;
+  const description = weatherData.current.weather[0].description;
+  const imgURL = `http://openweathermap.org/img/wn/${weatherData.current.weather[0].icon}.png`;
+  const humidity = weatherData.current.humidity;
 
   document.querySelector('#temp').textContent = temp;
   document.querySelector('#speed').textContent = speed;
   document.querySelector('#weatherIcon').setAttribute('src', imgURL);
   document.querySelector('#weatherIcon').setAttribute('alt', description);
-  document.querySelector('#weather-description').textContent = description
+  document.querySelector('#weather-description').textContent = description;
+  document.querySelector('#humidity').textContent = humidity;
+  
+  // alert(weatherData.alert[0].description);
+  alert("API not showing alerts in data.")
 
   if (temp <= 50 && speed > 3) {
     const windchill = 35.74 + 0.6215 * temp - 35.75 * Math.pow(speed, 0.16) + 0.4275 * temp * Math.pow(speed, 0.16)
@@ -72,7 +67,6 @@ function fetchForecast(weatherData) {
     div.appendChild(temp);
     div.appendChild(condition);
     
-
     forecastList.appendChild(div);
   }
 };
