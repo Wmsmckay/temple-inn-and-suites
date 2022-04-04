@@ -3,7 +3,6 @@ let lat = document.querySelector('#latitude').innerHTML;
 let lon = document.querySelector('#longitude').innerHTML;
 
 const apiURL = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&units=imperial&appid=6f1295d458b9a2c5209776b7aa937528`;
-// const endpoint = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&units=imperial&exclude=current,hourly,minutely&units=metric&appid=6f1295d458b9a2c5209776b7aa937528`;
 
 fetch(apiURL)
   .then((response) => response.json())
