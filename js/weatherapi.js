@@ -9,7 +9,7 @@ fetch(apiURL)
   .then((jsObject) => {
     currentWeather(jsObject);
     fetchForecast(jsObject);
-    console.log(jsObject);
+    // console.log(jsObject);
   });
 
 function currentWeather(weatherData) {
@@ -23,7 +23,7 @@ function currentWeather(weatherData) {
     const weather_alert = weatherData.alerts[0].description;
     alert(weather_alert);
   } catch (error) {
-    console.error(error);
+    // console.error(error);
   }
   
   
@@ -59,7 +59,7 @@ function fetchForecast(weatherData) {
     let wd = weekNames[dateObject.getDay()];
     let condition = document.createElement('p');
 
-    let imgURL = `http://openweathermap.org/img/wn/${weatherData.daily[i].weather[0].icon}.png`;
+    let imgURL = `https://openweathermap.org/img/wn/${weatherData.daily[i].weather[0].icon}.png`;
     let description = weatherData.daily[i].weather[0].description;
     day.innerHTML = wd;
     icon.setAttribute('src', imgURL);
