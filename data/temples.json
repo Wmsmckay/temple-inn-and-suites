@@ -19,7 +19,7 @@
                 "Ground breaking: 13 June 1997",
                 "Dedicated: 1 October 2000"
             ],
-            "photo": "./images/boston_temple_lds.jpeg",
+            "photo": "./images/boston_temple_lds.webp",
             "url": "https://www.churchofjesuschrist.org/temples/details/boston-massachusetts-temple?lang=eng",
             "location": {
                 "latitude": "42.4120",
@@ -53,7 +53,7 @@
                 "Groundbreaking: 30 July 2005",
                 "Dedicated: 10 February 2008"
             ],
-            "photo": "./images/rexburg_idaho_temple.jpeg",
+            "photo": "./images/rexburg_idaho_temple.webp",
             "url": "https://www.churchofjesuschrist.org/temples/details/rexburg-idaho-temple?lang=eng",
             "location": {
                 "latitude": "43.8110",
@@ -88,7 +88,7 @@
                 "Groundbreaking: 4 June 2011",
                 "Dedicated: 16 November 2014"
             ],
-            "photo": "./images/phoenix_arizona_temple_exterior.jpeg",
+            "photo": "./images/phoenix_arizona_temple_exterior.webp",
             "url": "https://www.churchofjesuschrist.org/temples/details/phoenix-arizona-temple?lang=eng",
             "location": {
                 "latitude": "33.6988",
@@ -125,7 +125,7 @@
                 "Groundbreaking: 16 March 2019",
                 "Dedicated: 7 November 2021"
             ],
-            "photo": "./images/pocatello_idaho_temple.jpeg",
+            "photo": "./images/pocatello_idaho_temple.webp",
             "url": "https://www.churchofjesuschrist.org/temples/details/pocatello-idaho-temple?lang=eng",
             "location": {
                 "latitude": "42.9153",
