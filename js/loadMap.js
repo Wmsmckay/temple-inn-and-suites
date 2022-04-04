@@ -1,4 +1,4 @@
-let map = document.querySelector('#mymap');
+let map = document.querySelector('.mymap');
 
 maplistner = function (e) { 
     let frame = document.createElement ('iframe'); 
@@ -12,7 +12,7 @@ map.addEventListener ('mouseover', maplistner);
 window.addEventListener('load', 
     function(e) {
          setTimeout(function(){
-             let map = document.querySelector('#mymap'); 
+             let map = document.querySelector('.mymap'); 
              let frame = document.createElement ('iframe'); 
              frame.src = map.getAttribute ('data-src'); 
              map.appendChild (frame); 
