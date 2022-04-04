@@ -1,8 +1,12 @@
-/* || Global CSS */
-/* || Header */
-/* || Nav */
+/* For tablet view */
+@media only screen and (min-width: 32.5em) {
 
-/* || ========== Pages ========== */
+    /* || Global CSS */
+    /* || Header */
+    /* || Nav */
 
-/* || Index Main */
-/* || Footer */
+    /* || ========== Pages ========== */
+
+    /* || Index Main */
+    /* || Footer */
+}

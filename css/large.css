@@ -1,8 +1,11 @@
-/* || Global CSS */
-/* || Header */
-/* || Nav */
+/* For desktop view */
+@media only screen and (min-width: 1000px){
+    /* || Global CSS */
+    /* || Header */
+    /* || Nav */
 
-/* || ========== Pages ========== */
+    /* || ========== Pages ========== */
 
-/* || Index Main */
-/* || Footer */
+    /* || Index Main */
+    /* || Footer */
+}
