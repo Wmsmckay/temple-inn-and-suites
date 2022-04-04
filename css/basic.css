@@ -159,14 +159,29 @@ footer hr{
 footer img {
     justify-self: center;
 }
-footer iframe{
+/* footer iframe{
     max-width: 70%;
-    /* max-height: 50%; */
-    /* align-self: center; */
-    /* text-align: center; */
-    /* justify-content: center; */
+} */
+#mymap {
+    background-image: url(../images/static-map.webp);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    padding-top: 76.25%;
+    justify-content: center;
+    text-align: center;
+}
+#mymap iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
     justify-self: center;
 }
+
+
 
 
 /* || ========== Pages ========== */
