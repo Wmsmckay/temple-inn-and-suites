@@ -292,7 +292,7 @@ main h2, h3, h4 {
 form {
     text-align: left;
     padding: 1em;
-    display: flexbox;
+    /* display: flexbox; */
     max-width: 600px;
     margin: auto;
 }
@@ -374,4 +374,52 @@ input[type=submit]:hover {
     text-align: left;
     /* background-color:var(--site-grey); */
     /* color: var(--site-white); */
+}
+
+
+
+
+/* || Services Page*/
+.services-section {
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid var(--site-grey);
+    border-radius: 4px;
+}
+.services-box {
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid var(--site-grey);
+    background-color: var(--site-light-blue);
+    border-radius: 4px;
+}
+
+.services-box ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.services-box strong {
+    color: var(--site-white);
+}
+.services-links {
+    /* display: flex; */
+    /* margin: 1em; */
+    /* padding: 1em; */
+}
+.services-links a {
+    text-decoration: none;
+    background-color: var(--site-grey);
+    color: var(--site-white);
+    padding: 5px;
+    /* margin-top: 2em; */
+    /* margin-bottom: 2em; */
+    /* border-radius: 1rem; */
+    /* background-color: var(--site-light-blue); */
+    /* color: var(--site-black); */
+    border-radius: 1rem;
+    /* padding: .75rem 1.5rem; */
+    /* margin: 0 0 2rem 2%; */
+    cursor: pointer;
 }
