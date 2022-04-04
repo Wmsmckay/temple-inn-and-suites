@@ -15,10 +15,9 @@ body {
     margin: auto;
     font-family: 'Lato', sans-serif;
 }
-/* main h1, h2, h3, h4 {
-    color: (var(--site-white));
-} */
-
+.page-header {
+    color: var(--site-dark-blue);
+}
 
 
 
@@ -282,4 +281,97 @@ main h2, h3, h4 {
     grid-template-columns: 1fr 1fr;
     width: fit-content;
     margin: auto;
+}
+
+
+/*  || Reservations main */
+#reservation-main {
+    /* display: grid; */
+}
+
+form {
+    text-align: left;
+    padding: 1em;
+    display: flexbox;
+    max-width: 600px;
+    margin: auto;
+}
+
+/* .rooms-section {
+    display: inline; 
+} */
+.dropdown-rooms {
+    /* display: inline-block; */
+    border: 1px solid var(--site-grey);
+    margin: 1em;
+    padding: 1em;
+    border-radius: 15px;
+}
+
+form fieldset {
+    margin: 2rem 0;
+    border: 5px solid var(--site-grey);
+    border-radius: 20px;
+    padding: .5rem 2%;
+}
+
+form legend {
+    color: var(--site-dark-blue);
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: var(--site-light-blue);
+}
+
+form label.top input, form label.top select {
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 18rem;
+    background-color: rgba(0,0,0,0.1);
+}
+textarea {
+    width: 90%;
+}
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: var(--site-light-blue);
+    font-size: 1rem;
+}
+
+
+form input.submitBtn {
+    background-color: var(--site-light-blue);
+    color: var(--site-black);
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    cursor: pointer;
+}
+form label.top input:required {
+    border-left: red solid 6px;
+}
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+.custom-select-top {
+    display:grid;
+    margin-top: 1em;
+    margin-bottom: .5em;
+    /* max-height: 1em; */
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+    /* background-color:var(--site-grey); */
+    /* color: var(--site-white); */
 }
