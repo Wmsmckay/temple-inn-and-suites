@@ -4,7 +4,8 @@
     --site-blue: #157493;
     --site-dark-blue:#006184;
     --site-black: #212225;
-    --site-light-blue: #63B1D7;
+    /* --site-light-blue: #63B1D7; */
+    --site-light-blue: #006184;
     --site-white: #fff;
 }
 
@@ -251,9 +252,11 @@ main h2, h3, h4 {
     background-color: var(--site-blue);
     padding: 16px;
     font-size: 16px;
-    border: none;
+    /* border: none; */
     margin: 1em;
-    color: var(--site-white)
+    color: var(--site-white);
+    border-radius: 15px;
+    border: 1px solid var(--site-black);
 }
 .dropdown {
     position: relative;
