@@ -15,6 +15,6 @@ window.addEventListener('load',
              let map = document.querySelector('.mymap'); 
              let frame = document.createElement ('iframe'); 
              frame.src = map.getAttribute ('data-src'); 
-             map.appendChild (frame); 
-    }, 1500);
+             map.appendChild(frame); 
+    }, 1000);
 }); 
