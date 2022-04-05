@@ -450,3 +450,12 @@ input[type=submit]:hover {
     /* margin: 0 0 2rem 2%; */
     cursor: pointer;
 }
+
+
+
+/* || Missionary Paage */
+.missionary-main img {
+    max-width: 90%;
+    box-shadow: 5px 5px 7px var(--site-black);
+    margin: 1em;
+}
