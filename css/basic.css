@@ -186,7 +186,8 @@ footer img {
 
 /* || ========== Pages ========== */
 main h2, h3, h4 {
-    color: var(--site-white);
+    /* color: var(--site-white); */
+    color: var(--site-black);
 }
 
 /* || Index Main */
@@ -244,7 +245,7 @@ main h2, h3, h4 {
     border-radius: 4px;
 }
 main h2, h3, h4 {
-    color: var(--site-white);
+    /* color: var(--site-white); */
 }
 
 /* || Temples Main */
@@ -254,7 +255,8 @@ main h2, h3, h4 {
     border: 1px solid var(--site-grey);
     background-color: var(--site-light-blue);
     border-radius: 4px;
-    color: var(--site-white);
+    /* color: var(--site-white); */
+    color: var(--site-black);
 }
 
 .temple-card img {
@@ -269,7 +271,8 @@ main h2, h3, h4 {
     font-size: 16px;
     /* border: none; */
     margin: 1em;
-    color: var(--site-white);
+    /* color: var(--site-white); */
+    color: var(--site-black);
     border-radius: 15px;
     border: 1px solid var(--site-black);
 }
@@ -429,7 +432,7 @@ input[type=submit]:hover {
 .services-links a {
     text-decoration: none;
     background-color: var(--site-grey);
-    color: var(--site-white);
+    /* color: var(--site-white); */
     padding: 5px;
     /* margin-top: 2em; */
     /* margin-bottom: 2em; */
