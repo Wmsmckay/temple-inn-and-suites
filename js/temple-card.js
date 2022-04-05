@@ -46,12 +46,12 @@ function createDropdown(title, content) {
 function displayTemples(temple) {
     let card = document.createElement('div');
     card.setAttribute('class', 'temple-card');
-    
 
     let name = document.createElement('h2');
     let photo = document.createElement('img');
     photo.setAttribute('src', temple.photo);
     photo.setAttribute('alt', temple.name);
+
     let history = createList(temple.history);
     let address = document.createElement('p');
     let phone = document.createElement('p');
@@ -61,7 +61,7 @@ function displayTemples(temple) {
     let s_schedule = document.createElement('p');
     let c_schedule = createList(temple.closure_schedule);
 
-    templeId = (temple.name).replace(/\s/g, '-');
+    let templeId = (temple.name).replace(/\s/g, '-');
     let likeid = `${templeId}-likeid`;
 
 
