@@ -14,6 +14,7 @@ window.addEventListener('load',
          setTimeout(function(){
              let map = document.querySelector('.mymap'); 
              let frame = document.createElement ('iframe'); 
+             frame.title = 'Directions to Temple Inn & Suites';
              frame.src = map.getAttribute ('data-src'); 
              map.appendChild(frame); 
     }, 1000);
