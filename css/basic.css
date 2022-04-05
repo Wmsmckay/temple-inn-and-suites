@@ -423,6 +423,9 @@ input[type=submit]:hover {
     padding: 0;
     margin: 0;
 }
+.services-box li {
+    margin-top: .5em;
+}
 
 .services-box strong {
     color: var(--site-white);
@@ -435,7 +438,7 @@ input[type=submit]:hover {
 .services-links a {
     text-decoration: none;
     background-color: var(--site-grey);
-    /* color: var(--site-white); */
+    color: var(--site-white);
     padding: 5px;
     /* margin-top: 2em; */
     /* margin-bottom: 2em; */
