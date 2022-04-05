@@ -303,6 +303,9 @@ main h2, h3, h4 {
     width: fit-content;
     margin: auto;
 }
+.likes i {
+    color: var(--site-white);
+}
 
 
 /*  || Reservations main */
