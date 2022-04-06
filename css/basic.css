@@ -198,7 +198,7 @@ main h2, h3, h4 {
 /* || Index Main */
 
 .call-to-action {
-    background-image: url(../images/big-sky.webp);
+    background-image: url(../images/big-sky-small.png);
     background-size: cover;
     background-position: center;
     height: 300px;
@@ -492,5 +492,5 @@ input[type=submit]:hover {
     margin: 1em;
 }
 .missionary-main form {
-    margin: 2em auto;
+    margin: em auto;
 }
