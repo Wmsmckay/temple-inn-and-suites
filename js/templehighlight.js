@@ -16,25 +16,31 @@ fetch(requestURL)
 
 
 function displayTempleHighligh(temple) {
-    let name = document.createElement('h2');
-    let photo = document.createElement('img');
-    let website = document.createElement('a');
-    let templehistory = document.createElement('section');
+    // let name = document.createElement('h2');
+    let name = document.querySelector('#temple-highlight-title');
+    // let photo = document.createElement('img');
+    let photo = document.querySelector('#temple-highlight-img');
+    // let website = document.createElement('a');
+    // let templehistory = document.createElement('section');
+    let templehistory = document.querySelector('#temple-highlight-section');
+    // let milestones = document.createElement('h3');
+    let milestones = document.querySelector('#temple-section-title');
     let lat = document.querySelector('#latitude');
     let lon = document.querySelector('#longitude');
 
     name.textContent = `${temple.name}`;
     photo.setAttribute('src', temple.photo);
     photo.setAttribute('alt', `Image of ${temple.name}`);
-    photo.setAttribute('loading', 'lazy');
-    website.setAttribute('href', temple.url);
-    website.setAttribute('target', '_blank');
+    // photo.setAttribute('loading', 'lazy');
+    // website.setAttribute('href', temple.url);
+    // website.setAttribute('target', '_blank');
 
     lat.innerHTML = temple.location['latitude'];
     lon.innerHTML = temple.location['longitude'];
     
     
-    let list = document.createElement('ul');
+    // let list = document.createElement('ul');
+    let list = document.querySelector('.temple-highlight-text')
     list.setAttribute('class', 'temple-highlight-text');
 
     for (item in temple.history) {
@@ -44,18 +50,18 @@ function displayTempleHighligh(temple) {
         list.appendChild(li);
     };
 
-    let milestones = document.createElement('h3');
+    
     milestones.textContent = "Milestones";
     templehistory.appendChild(milestones);
-    templehistory.appendChild(list)
+    templehistory.appendChild(list);
 
-    highlight.appendChild(lat);
-    highlight.appendChild(lon);
-    highlight.appendChild(photo);
-    highlight.appendChild(name);
+    // highlight.appendChild(lat);
+    // highlight.appendChild(lon);
+    // highlight.appendChild(photo);
+    // highlight.appendChild(name);
     
-    highlight.appendChild(templehistory);
-    highlight.appendChild(website);
+    // highlight.appendChild(templehistory);
+    // highlight.appendChild(website);
     
 }
 

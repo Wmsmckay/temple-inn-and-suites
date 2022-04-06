@@ -7,8 +7,8 @@ const apiURL = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=$
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
-    currentWeather(jsObject);
-    fetchForecast(jsObject);
+    // currentWeather(jsObject);
+    // fetchForecast(jsObject);
     // console.log(jsObject);
   });
 
