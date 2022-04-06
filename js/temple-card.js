@@ -62,7 +62,8 @@ function displayTemples(temple) {
     let c_schedule = createList(temple.closure_schedule);
     let website = document.createElement('a');
     website.innerHTML= 'Website';
-    website.setAttribute('href', temple.website);
+    website.setAttribute('href', temple.url);
+    website.setAttribute('target',"_blank");
 
     let templeId = (temple.name).replace(/\s/g, '-');
     let likeid = `${templeId}-likeid`;
