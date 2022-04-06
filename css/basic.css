@@ -439,6 +439,12 @@ input[type=submit]:hover {
     background-color: var(--site-light-blue);
     border-radius: 4px;
 }
+.specialized-services a{
+    color: var(--site-white);
+}
+.specialized-services a:hover {
+    color: var(--site-grey);
+}
 
 .services-box img {
     /* max-width: 350px; */
@@ -483,9 +489,13 @@ input[type=submit]:hover {
     cursor: pointer;
 }
 
+/* || Reception page */
+.wedding-main a{
+    padding: 1em auto;
+    
+}
 
-
-/* || Missionary Paage */
+/* || Missionary Page */
 .missionary-main img {
     max-width: 90%;
     box-shadow: 5px 5px 7px var(--site-black);
