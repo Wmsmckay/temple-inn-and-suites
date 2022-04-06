@@ -10,15 +10,3 @@ const lastUpdate = `Last Updated ${document.lastModified}`;
 const year = new Date().getFullYear();
 
 document.querySelector("#last-updated").textContent = lastUpdate;
-
-// const today = new Date();
-
-// const monthNames = ["January", "February", "March", "April", "May", "June",
-//   "July", "August", "September", "October", "November", "December"];
-
-const weekNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-
-// let wd = weekNames[today.getDay()]
-// let dd = String(today.getDate()).padStart(2, '0');
-// let mm = monthNames[today.getMonth()];
-// let yyyy = today.getFullYear();

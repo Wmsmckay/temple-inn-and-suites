@@ -17,12 +17,10 @@ let section = document.querySelector('#rooms-section');
     }
     if (funct === 'subtract') {
         if (total_num > 0) {
-            // total = total - 1;
             section.removeChild(section.lastChild);
             total_num --;
         }
     }
-    // console.log(total_num);
     document.querySelector('#num-rooms').setAttribute('value', total_num);
     total_num_rooms.innerHTML = total_num;
 }
@@ -39,7 +37,6 @@ function add_room(num) {
     let option1 = document.createElement('option');
     option1.setAttribute('value', 'none');
     option1.innerHTML = 'Please choose a room option';
-    // option1.setAttribute('selected');
     select.appendChild(option1);
 
     // Option 2
@@ -57,11 +54,5 @@ function add_room(num) {
 
     dropdown.appendChild(title);
     dropdown.appendChild(select);
-    // dropdown.appendChild(option1);
     return dropdown;
 }
-
-// <label class="">Home State</label>
-// <select name="home-state" required>
-//     <option value="none" selected disabled hidden>Please choose a state.</option>
-//     <option value="AL">Alabama</option>

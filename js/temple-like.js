@@ -4,7 +4,6 @@ function toggleLike(x) {
     like_value ++;
     
     like_id = `#${x}-likeid`;
-    // console.log(like_id);
     like_p = document.querySelector(like_id).innerHTML = like_value;
     window.localStorage.setItem(like_value_name, like_value);
   };

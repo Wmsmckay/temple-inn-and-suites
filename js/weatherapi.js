@@ -9,7 +9,6 @@ fetch(apiURL)
   .then((jsObject) => {
     currentWeather(jsObject);
     fetchForecast(jsObject);
-    // console.log(jsObject);
   });
 
 function currentWeather(weatherData) {
@@ -23,7 +22,6 @@ function currentWeather(weatherData) {
     const weather_alert = weatherData.alerts[0].description;
     alert(weather_alert);
   } catch (error) {
-    // console.error(error);
   }
   
   
@@ -51,16 +49,11 @@ function fetchForecast(weatherData) {
     let milli = weatherData.daily[i].dt * 1000
     dateObject = new Date(milli);
 
-    // let div = document.createElement('div');
     let div = document.querySelector(`#forecast${i}`);
-    // let day = document.createElement('p');
     let day = document.querySelector(`#day-forecast${i}`);
-    // let icon = document.createElement('img');
     let icon = document.querySelector(`#weatherIcon-forecast${i}`);
-    // let temp = document.createElement('p');
     let temp = document.querySelector(`#temp-forecast${i}`);
     let wd = weekNames[dateObject.getDay()];
-    // let condition = document.createElement('p');
     let condition = document.querySelector(`#conditions-forecast${i}`);
 
     let imgURL = `https://openweathermap.org/img/wn/${weatherData.daily[i].weather[0].icon}.png`;
@@ -70,12 +63,5 @@ function fetchForecast(weatherData) {
     icon.setAttribute('alt', description);
     temp.innerHTML = `${weatherData.daily[i].temp.day.toFixed(0)}&#176; F`;
     condition.innerHTML = description;
-
-    // div.appendChild(day);
-    // div.appendChild(icon);
-    // div.appendChild(temp);
-    // div.appendChild(condition);
-    
-    // forecastList.appendChild(div);
   }
 };

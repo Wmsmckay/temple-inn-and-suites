@@ -5,14 +5,12 @@
     --site-dark-blue:#006184;
     --site-black: #212225;
     --site-light-blue: #63B1D7;
-    /* --site-light-blue: #006184; */
     --site-white: #fff;
     --site-green: #3e8e41;
 }
 
 body {
     max-width: 1100px;
-    /* align-items: center; */
     text-align: center;
     margin: auto;
     font-family: 'Lato', sans-serif;
@@ -30,20 +28,16 @@ header{
     grid-template-columns: .5fr 2fr .5fr 1fr;
     color: var(--site-white);
     background-color: var(--site-blue);
-    /* padding-top: 10px; */
 }
 
 header img {
     max-width: 120px;
-    /* margin: auto; */
 }
 #social-links {
     display: grid;
     grid-template-rows: 1fr 1fr;
-    /* gap: 5px; */
     max-width: 20px;
     margin: 10px;
-    /* padding: 1em; */
 }
 .fa {
     padding: .7em;
@@ -91,9 +85,7 @@ nav ul {
     align-content: flex-end;
 }
 .active {
-    /* color: var(--site-green); */
     color: var(--site-black);
-    /* text-shadow: 0.1em 0.1em .75em #c8fff8; */
     background-color: rgba(255, 255, 255, 0.807);
 }
 nav ul li a {
@@ -111,7 +103,6 @@ nav ul li a:hover {
 }
 nav ul {
     display: none;
-    /* background-color: rgba(182, 182, 182, 0.1); */
 }
 
 nav ul.open {display: block;}
@@ -143,15 +134,8 @@ footer{
     padding: 1em;
     display: grid;
     grid-template-columns: 1fr;
-    /* max-height: 300px;
-    margin: auto; */
-    /* align-items: center; */
-    /* text-align: center; */
-    /* justify-content: center; */
 }
 #footer-top {
-    /* display: grid; */
-    /* grid-template-columns: 1fr; */
 }
 footer hr{
     width: 100%;
@@ -159,9 +143,6 @@ footer hr{
 footer .logo {
     justify-self: center;
 }
-/* footer iframe{
-    max-width: 70%;
-} */
 .mymap {
     background-image: url(../images/static-map.webp);
     background-size: cover;
@@ -170,7 +151,6 @@ footer .logo {
     padding-top: 76.25%;
     justify-content: center;
     text-align: center;
-    /* max-height: 400px; */
     margin: 3em;
 }
 .mymap iframe {
@@ -179,26 +159,21 @@ footer .logo {
     left: 0;
     width: 100%;
     height: 100%;
-    /* max-height: 400px; */
     border: 0;
     justify-self: center;
     display: block;
-}
-.mymap img {
-    /* max-height: 400px; */
-    /* max-width: 400px; */
 }
 
 
 
 /* || ========== Pages ========== */
 main h2, h3, h4 {
-    /* color: var(--site-white); */
     color: var(--site-black);
 }
 
-/* || Index Main */
 
+
+/* || Index Main */
 .call-to-action {
     background-image: url(../images/big-sky-small.png);
     background-size: cover;
@@ -220,13 +195,9 @@ main h2, h3, h4 {
     background-color: var(--site-white);
     text-decoration: none;
     padding: .7em;
-    /* padding-left: 1em;
-    padding-right: 1em; */
     margin: 2.5em;
     color: var(--site-dark-blue);
     border: 1px solid var(--site-grey);
-    /* width: 50%; */
-    /* margin-bottom: 3em; */
     border-radius: 25px;
 }
 .temple-highlight-text {
@@ -260,7 +231,6 @@ main h2, h3, h4 {
     border-radius: 4px;
 }
 main h2, h3, h4 {
-    /* color: var(--site-white); */
 }
 
 /* || Temples Main */
@@ -270,13 +240,8 @@ main h2, h3, h4 {
     border: 1px solid var(--site-grey);
     background-color: var(--site-light-blue);
     border-radius: 4px;
-    /* color: var(--site-white); */
     color: var(--site-black);
 }
-/* .temple-card {
-    max-width: 400px; 
-    margin: 1em auto;  
-} */
 
 
 .temple-card img {
@@ -297,7 +262,6 @@ main h2, h3, h4 {
     background-color: var(--site-blue);
     padding: 16px;
     font-size: 16px;
-    /* border: none; */
     margin: 1em;
     color: var(--site-white);
     border-radius: 15px;
@@ -337,23 +301,13 @@ main h2, h3, h4 {
 
 
 /*  || Reservations main */
-#reservation-main {
-    /* display: grid; */
-}
-
 form {
     text-align: left;
     padding: 1em;
-    /* display: flexbox; */
     max-width: 600px;
     margin: auto;
 }
-
-/* .rooms-section {
-    display: inline; 
-} */
 .dropdown-rooms {
-    /* display: inline-block; */
     border: 1px solid var(--site-grey);
     margin: 1em;
     padding: 1em;
@@ -421,11 +375,8 @@ input[type=submit]:hover {
     display:grid;
     margin-top: 1em;
     margin-bottom: .5em;
-    /* max-height: 1em; */
     grid-template-columns: 1fr 1fr;
     text-align: left;
-    /* background-color:var(--site-grey); */
-    /* color: var(--site-white); */
 }
 
 
@@ -445,22 +396,15 @@ input[type=submit]:hover {
     background-color: var(--site-light-blue);
     border-radius: 4px;
 }
-/* .specialized-services a{
-    color: var(--site-white);
-    background-color: var(--site-white);
-} */
 .specialized-services a:hover {
     color: var(--site-grey);
 }
 
 .services-box img {
-    /* max-width: 350px; */
     width: 100%;
     max-width: 350px;
     margin: auto;
-    /* max-width: 90%; */
     box-shadow: 5px 5px 7px var(--site-black);
-    /* margin: 1em; */
 }
 
 .services-box ul {
@@ -476,23 +420,13 @@ input[type=submit]:hover {
     color: var(--site-white);
 }
 .services-links {
-    /* display: flex; */
-    /* margin: 1em; */
-    /* padding: 1em; */
 }
 .services-links a {
     text-decoration: none;
     background-color: var(--site-grey);
     color: var(--site-white);
     padding: 5px;
-    /* margin-top: 2em; */
-    /* margin-bottom: 2em; */
-    /* border-radius: 1rem; */
-    /* background-color: var(--site-light-blue); */
-    /* color: var(--site-black); */
     border-radius: 1rem;
-    /* padding: .75rem 1.5rem; */
-    /* margin: 0 0 2rem 2%; */
     cursor: pointer;
 }
 
