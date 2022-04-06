@@ -491,3 +491,6 @@ input[type=submit]:hover {
     box-shadow: 5px 5px 7px var(--site-black);
     margin: 1em;
 }
+.missionary-main form {
+    margin: 2em auto;
+}

@@ -134,6 +134,19 @@
         align-items: center;
     }
 
+    /* || services page */
+    .wedding-main {
+        max-width: 600px;
+        margin:auto;
+    }
+
+    /* || Missionary page */
+    .misionary-info{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+
     /* || Footer */
     #footer-top {
         /* display: grid; */
