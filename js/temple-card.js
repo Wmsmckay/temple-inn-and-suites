@@ -60,6 +60,9 @@ function displayTemples(temple) {
     let o_schedule = document.createElement('p');
     let s_schedule = document.createElement('p');
     let c_schedule = createList(temple.closure_schedule);
+    let website = document.createElement('a');
+    website.innerHTML= 'Website';
+    website.setAttribute('href', temple.website);
 
     let templeId = (temple.name).replace(/\s/g, '-');
     let likeid = `${templeId}-likeid`;
@@ -91,7 +94,7 @@ function displayTemples(temple) {
     name.innerHTML = temple.name;
     address.innerHTML = temple.address;
     phone.innerHTML = temple.telephone;
-    email.innerHTML = temple.email;
+    email.innerHTML = `Email: ${temple.email}`;
     o_schedule.innerHTML = `Ordinance Schedule: ${temple.ordinance_schedule}`;
     s_schedule.innerHTML = `Session Schedule: ${temple.session_schedule}`;
 
@@ -100,6 +103,7 @@ function displayTemples(temple) {
     contact.appendChild(address);
     contact.appendChild(email);
     contact.appendChild(phone);
+    contact.appendChild(website);
 
 
 
