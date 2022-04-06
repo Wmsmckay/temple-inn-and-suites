@@ -1,11 +1,51 @@
 /* For desktop view */
-@media only screen and (min-width: 1000px){
+@media only screen and (min-width: 900px){
+    header {
+        /* background-color: yellow; */
+    }
     /* || Global CSS */
     /* || Header */
+    
     /* || Nav */
+
 
     /* || ========== Pages ========== */
 
     /* || Index Main */
+    .content-body{
+        /* display: grid; */
+        grid-template-columns: 1fr 2fr;
+    }
+    .medium-top {
+        height: 300px;
+        justify-content: center;
+        align-items: center;
+    }
+    .current-weather{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .temple-highlight{
+        /* max-width: 300px; */
+        /* margin: 1em auto; */
+        grid-column: 2/3;
+        /* justify-content: center; */
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
     /* || Footer */
+    #footer-top {
+    }
+    .mymap-wrap {
+        /* width: 400px; */
+        /* height: 300px; */
+        /* display: hidden; */
+        /* margin: auto; */
+        /* padding: 1em; */
+        /* max-width: 350px; */
+        /* height: 200px; */
+        /* margin: auto; */
+        /* margin-bottom: ; */
+    }
 }

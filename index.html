@@ -11,8 +11,8 @@
     <link href="./css/normalize.css" rel="stylesheet" />
     <link rel="shortcut icon" href="./images/favicon.ico" />
     <link href="css/basic.css" rel="stylesheet" >
-    <link href="css/medium.css" rel="stylesheet" media="screen and (min-width: 32.5em)">
-    <link href="css/large.css" rel="stylesheet" media="screen and (min-width: 1000px)">
+    <link href="css/medium.css" rel="stylesheet" media="screen and (min-width: 630px)">
+    <link href="css/large.css" rel="stylesheet" media="screen and (min-width: 900px)">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   </head>
@@ -63,47 +63,58 @@
           >
         </div>
       </div>
-      <div class="temple-highlight blue-box">
-        <span hidden id="latitude"></span>
-        <span hidden id="longitude"></span>
-        <img id="temple-highlight-img" src="./images/placeholder.png" alt="placeholder">
-        <h2 id="temple-highlight-title"></h2>
-        <section id="temple-highlight-section">
-          <h3 id="temple-section-title"></h3>
-          <ul class="temple-highlight-text">
-
-          </ul>
-        </section>
-      </div>
-      <div class="current-weather blue-box">
-        <h3>Current Weather</h3>
-        <img src="./images/placeholder.png" id="weatherIcon" alt="placeholder image" width="70px">
-        <p><span id="temp"></span>&#176; F</p>
-        <p id="weather-description"></p>
-        <hr>
-        <p>Humidity: <span id="humidity"></span></p>
-        <p>Wind Speed: <span id="speed"></span></p>
-        <p>Wind Chill: <span id="windchill"></span></p>
-      </div>
-      <div class="weather-forecast blue-box">
-        <h3>3 Day Forecast</h3>
-        <div id="forecast1" class="forecast-div">
-          <p id="day-forecast1">day</p>
-          <img src="./images/placeholder.png" id="weatherIcon-forecast1" alt="placeholder image" width="70px">
-          <p id="temp-forecast1">temp</p>
-          <p id="conditions-forecast1">condition</p>
+      <div class="content-body">
+        <div class="temple-highlight medium-top">
+          <span hidden id="latitude"></span>
+          <span hidden id="longitude"></span>
+          <img id="temple-highlight-img" src="./images/placeholder.png" alt="placeholder">
+          <div id="temple-highlight-content">
+            <h2 id="temple-highlight-title"></h2>
+            <section id="temple-highlight-section">
+              <h3 id="temple-section-title"></h3>
+              <ul class="temple-highlight-text">
+              </ul>
+            </section>
+          </div>
+          
         </div>
-        <div id="forecast2" class="forecast-div">
-          <p id="day-forecast2">day</p>
-          <img src="./images/placeholder.png" id="weatherIcon-forecast2" alt="placeholder image" width="70px">
-          <p id="temp-forecast2">temp</p>
-          <p id="conditions-forecast2">condition</p>
+        <div class="current-weather medium-top blue-box">
+          <h3>Current Weather</h3>
+          <div>
+            <img src="./images/placeholder.png" id="weatherIcon" alt="placeholder image" width="70px">
+            <p><span id="temp"></span>&#176; F</p>
+            <p id="weather-description"></p>
+            <hr>
+          </div>
+            
+          <div>
+            <p>Humidity: <span id="humidity"></span></p>
+            <p>Wind Speed: <span id="speed"></span></p>
+            <p>Wind Chill: <span id="windchill"></span></p>
+          </div>
         </div>
-        <div id="forecast3" class="forecast-div">
-          <p id="day-forecast3">day</p>
-          <img src="./images/placeholder.png" id="weatherIcon-forecast3" alt="placeholder image" width="70px">
-          <p id="temp-forecast3">temp</p>
-          <p id="conditions-forecast3">condition</p>
+        <div class="weather-forecast blue-box">
+          <h3>3 Day Forecast</h3>
+          <div id="weather-forcast-content">
+            <div id="forecast1" class="forecast-div">
+              <p id="day-forecast1">day</p>
+              <img src="./images/placeholder.png" id="weatherIcon-forecast1" alt="placeholder image" width="70px">
+              <p id="temp-forecast1">temp</p>
+              <p id="conditions-forecast1">condition</p>
+            </div>
+            <div id="forecast2" class="forecast-div">
+              <p id="day-forecast2">day</p>
+              <img src="./images/placeholder.png" id="weatherIcon-forecast2" alt="placeholder image" width="70px">
+              <p id="temp-forecast2">temp</p>
+              <p id="conditions-forecast2">condition</p>
+            </div>
+            <div id="forecast3" class="forecast-div">
+              <p id="day-forecast3">day</p>
+              <img src="./images/placeholder.png" id="weatherIcon-forecast3" alt="placeholder image" width="70px">
+              <p id="temp-forecast3">temp</p>
+              <p id="conditions-forecast3">condition</p>
+            </div>
+          </div>
         </div>
       </div>
     </main>
@@ -117,11 +128,13 @@
           <p>info@templeinn&suites.com</p>
           <p>(123) 555-1234</p>
         </div>
-      </div>
-      <div data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.4050197013225!2d-77.09772048431391!3d38.983251779557555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b8f21f1%3A0x9a0b3cde14da0a60!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1648842747481!5m2!1sen!2sus" class="mymap">
+        <div class="mymap-wrap">
+          <div data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.405019701323!2d-77.09772048431394!3d38.98325177955754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b8f21f1%3A0x9a0b3cde14da0a60!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1649268058102!5m2!1sen!2sus" class="mymap">
+          </div>
+        </div>
       </div>
       
-      <img class="logo" src="./images/logo-white-transparent.png" alt="" />
+      <img class="logo" src="./images/logo-white-transparent.png" alt="logo">
       <hr />
       <div id="footer-bottom">
         <p>

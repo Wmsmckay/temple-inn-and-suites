@@ -70,20 +70,16 @@ header img {
 /* || Nav */
 nav {
     margin: 0 auto;
-    /* max-width: 760px; */
     font-family: lato, sans-serif;
     width: 100%;
     grid-column: 1/5;
-    /* justify-content: center; */
     text-align: center;
     background-color: rgba(61, 61, 61, 0.4)
-    /* background-color: var(--site-light-blue); */
 }
 nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    /* width: 90%; */
 }
 #hamburgerBtn {
     margin: 0.2rem 2vw;
@@ -145,6 +141,8 @@ footer{
     padding: 1em;
     display: grid;
     grid-template-columns: 1fr;
+    /* max-height: 300px;
+    margin: auto; */
     /* align-items: center; */
     /* text-align: center; */
     /* justify-content: center; */
@@ -156,7 +154,7 @@ footer{
 footer hr{
     width: 100%;
 }
-footer img {
+footer .logo {
     justify-self: center;
 }
 /* footer iframe{
@@ -170,6 +168,8 @@ footer img {
     padding-top: 76.25%;
     justify-content: center;
     text-align: center;
+    /* max-height: 400px; */
+    margin: 3em;
 }
 .mymap iframe {
     position: absolute;
@@ -177,10 +177,15 @@ footer img {
     left: 0;
     width: 100%;
     height: 100%;
+    /* max-height: 400px; */
     border: 0;
     justify-self: center;
+    display: block;
 }
-
+.mymap img {
+    /* max-height: 400px; */
+    /* max-width: 400px; */
+}
 
 
 
@@ -231,6 +236,14 @@ main h2, h3, h4 {
     width: 300px;
 }
 
+.temple-highlight {
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid var(--site-grey);
+    background-color: var(--site-light-blue);
+    border-radius: 4px;
+}
+
 .weather-forecast div{
     border: 1px solid var(--site-grey);
     margin: 1em;
@@ -263,6 +276,10 @@ main h2, h3, h4 {
     max-width: 90%;
     box-shadow: 5px 5px 7px var(--site-black);
     margin: 1em;
+}
+.temple-highlight img{
+    max-width: 90%;
+    box-shadow: 5px 5px 7px var(--site-black);
 }
 
 .dropbtn {

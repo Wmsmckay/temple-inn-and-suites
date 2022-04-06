@@ -1,12 +1,124 @@
 /* For tablet view */
-@media only screen and (min-width: 32.5em) {
-
+@media only screen and (min-width: 630px) {
+    header {
+        /* background-color: yellow; */
+    }
     /* || Global CSS */
     /* || Header */
+    header {
+        grid-template-columns: 100px 1fr 2fr 1fr;
+    }
+    h1 {
+        text-align: left;
+    }
+    #social-links {
+        /* float: right; */
+        margin: auto;
+    }
+    
+
+
     /* || Nav */
+    nav {
+        grid-column: 3/4;
+        grid-row: 1;
+        background-color: inherit;
+        max-height: auto;
+        /* justify-self: center; */
+        align-self: center;
+    }
+    nav button {
+        /* display: none; */
+        /* height: 100%; */
+        /* width: 100%; */
+    }
+    #primaryNav {
+        display: flex;
+        /* position: relative; */
+      }
+    #primaryNav li {
+        display: block;
+        flex: 1 1 auto;
+    }
+    #primaryNav a {
+        text-align: center;
+        border: none;
+    }
+    #hamburgerBtn {
+        display: none;
+    }
+
 
     /* || ========== Pages ========== */
 
     /* || Index Main */
+    .call-to-action {
+        /* align-items: center;    */
+        /* justify-content: center; */
+        /* text-align: center; */
+    }
+    .content-body{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .current-weather{
+        grid-column: 1/2;
+        grid-row: 1;
+    }
+    .current-weather h3 {
+        grid-column: 1/3;
+    }
+    .temple-highlight-content{
+        padding: 1em;   
+        margin: 1em;
+    }
+    .medium-top {
+        height: 400px;
+        justify-content: center;
+        align-self: center;
+    }
+    .call-to-action-text {
+        /* margin: 1em auto; */
+        /* margin: auto; */
+        /* margin: ; */
+        max-width: 300px;
+        /* height: 100px; */
+    }
+    .weather-forecast{
+        grid-column: 1/4;
+        
+    }
+    #weather-forcast-content{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    /* .action-button {
+        margin-top: 500px;
+    } */
+    .temple-highlight{
+        /* max-width: 300px; */
+        /* margin: 1em auto; */
+        grid-column: 2/3;
+        justify-content: center;
+        /* display: grid; */
+        grid-template-columns: 1fr 1fr;
+    }
+    .blue-box {
+        /* max-width: 300px; */
+        /* margin: 1em auto; */
+        /* margin; */
+    }
     /* || Footer */
-}
+    #footer-top {
+        /* display: grid; */
+        /* grid-template-columns: 1fr 1fr 1fr; */
+    }
+    .mymap-wrap {
+        /* width: 400px; */
+        height: 300px;
+        margin: auto;
+        padding: 1em;
+        max-width: 350px;
+        margin: auto;
+    }
+}   
