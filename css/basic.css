@@ -271,6 +271,11 @@ main h2, h3, h4 {
     /* color: var(--site-white); */
     color: var(--site-black);
 }
+/* .temple-card {
+    max-width: 400px; 
+    margin: 1em auto;  
+} */
+
 
 .temple-card img {
     max-width: 90%;

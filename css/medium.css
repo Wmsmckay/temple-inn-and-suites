@@ -108,6 +108,13 @@
         /* margin: 1em auto; */
         /* margin; */
     }
+
+    /* || Temple main */
+    .temple-card {
+        max-width: 400px; 
+        margin: 1em auto;  
+    }
+
     /* || Footer */
     #footer-top {
         /* display: grid; */

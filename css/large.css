@@ -5,7 +5,7 @@
     }
     /* || Global CSS */
     /* || Header */
-    
+
     /* || Nav */
 
 
@@ -31,6 +31,11 @@
         grid-column: 2/3;
         /* justify-content: center; */
         display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    /* || temples main */
+    #temple-cards {
+        display:  grid;
         grid-template-columns: 1fr 1fr;
     }
 
