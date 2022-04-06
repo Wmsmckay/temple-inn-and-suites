@@ -12,6 +12,12 @@ fetch(requestURL)
     const temples = jsonObject['temples'];
     i_random = Math.floor(Math.random() * temples.length);
     displayTempleHighligh(temples[i_random]);
+    })
+    .then(function(){
+        let script = document.createElement('script');
+        script.src = './js/weatherapi.js';
+        document.body.appendChild(script);
+
 });
 
 
@@ -53,7 +59,7 @@ function displayTempleHighligh(temple) {
     
     milestones.textContent = "Milestones";
     templehistory.appendChild(milestones);
-    templehistory.appendChild(list);
+    templehistory.appendChild(list)
 
     // highlight.appendChild(lat);
     // highlight.appendChild(lon);
@@ -65,6 +71,3 @@ function displayTempleHighligh(temple) {
     
 }
 
-let script = document.createElement('script');
-script.src = './js/weatherapi.js';
-document.body.appendChild(script);
