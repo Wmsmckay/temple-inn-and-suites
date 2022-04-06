@@ -114,6 +114,11 @@
         max-width: 400px; 
         margin: 1em auto;  
     }
+    /* || Reservations page */
+    #reservation-main form {
+        max-width: 600px;
+        margin: auto;
+    }   
 
     /* || Footer */
     #footer-top {
