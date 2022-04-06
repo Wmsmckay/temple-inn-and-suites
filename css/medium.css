@@ -120,6 +120,20 @@
         margin: auto;
     }   
 
+    /* || Services Page */
+    .services-main {
+        /* display: grid; */
+        /* grid-template-columns: ; */
+        max-width: 600px;
+        margin: auto;
+    }
+    .services-links {
+        display:  grid;
+        grid-template-columns: 1fr 1fr;
+        /* justify-content: center; */
+        align-items: center;
+    }
+
     /* || Footer */
     #footer-top {
         /* display: grid; */

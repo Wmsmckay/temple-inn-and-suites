@@ -440,6 +440,16 @@ input[type=submit]:hover {
     border-radius: 4px;
 }
 
+.services-box img {
+    /* max-width: 350px; */
+    width: 100%;
+    max-width: 350px;
+    margin: auto;
+    /* max-width: 90%; */
+    box-shadow: 5px 5px 7px var(--site-black);
+    /* margin: 1em; */
+}
+
 .services-box ul {
     list-style-type: none;
     padding: 0;
