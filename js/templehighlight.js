@@ -1,6 +1,6 @@
 // Randomly selects a temple an populates its data to the home page as a highlight.
 
-const requestURL = "https://wmsmckay.github.io/temple-inn-and-suites/data/temples.json"
+const requestURL = "https://pages.mckaywilliams.com/temple-inn-and-suites/data/temples.json"
 
 const highlight = document.querySelector(".temple-highlight");
 
