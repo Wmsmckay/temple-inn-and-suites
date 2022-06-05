@@ -1,4 +1,5 @@
-const requestURL = "https://wmsmckay.github.io/temple-inn-and-suites/data/temples.json"
+// const requestURL = "https://wmsmckay.github.io/temple-inn-and-suites/data/temples.json"
+const requestURL = "https://pages.mckaywilliams.com/temple-inn-and-suites/data/temples.json"
 const cards = document.querySelector('#temple-cards');
 
 fetch(requestURL)
